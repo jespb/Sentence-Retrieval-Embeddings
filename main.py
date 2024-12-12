@@ -39,7 +39,7 @@ write_sentences_to_file( sentence_output_file , sentences)
 from scripts.generateEmbeddings import getEmbeddingDB
 from sentence_transformers import SentenceTransformer, models
 
-model_dir = '/home/XXX/all-MiniLM-L6-v2.pt'
+model_dir = '/home/jebatista/Desktop/Desktop/Attribution/Attribution_old/LLM/all-MiniLM-L6-v2.pt'
 model_st = SentenceTransformer(model_dir, device="cpu")
 
 embDB = getEmbeddingDB(model_st, modelname, filename)

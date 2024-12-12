@@ -5,6 +5,7 @@ from nltk.tokenize import sent_tokenize
 
 # Download NLTK tokenizer model
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 def tokenize(text):
     print(text)
